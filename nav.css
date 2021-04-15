@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(245,245,245);
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+.main{
+    width:80%;
+    margin:auto;
+    /* background-color: aqua; */
+
+}
+address{
+    text-align: center;
+    padding-top:40px;
+
+}
+.footer{
+    height:100px;
+
+}
+
+.nav{
+    height:110px;
+}
+.title{
+    display:flex;
+    justify-content: start;
+}
+.title li{
+color:grey;
+}
+.title__name{
+    width:60%;
+}
+.title__name p{
+font-size: 30px;
+}
+.title span{
+    color:rgb(138,206,247)
+}
+.title_index{
+width: 60px;
+margin:5px;
+text-align: center;
+margin:auto;
+color:grey;
+padding:15px;
+margin-right:5px;
+
+}
+.title_index a{
+    padding-right:10px;
+    color:gray;
+}
+.mark{
+    border-bottom: 3px solid rgb(116,204,145);
+    color:black;
+}/*黑色失败了*/
+.title_index:hover{
+    border-bottom: 3px solid rgb(116,204,145);
+    color:black;
+}

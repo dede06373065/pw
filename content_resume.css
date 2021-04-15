@@ -1,0 +1,94 @@
+.content_middle{
+    /* background-color: aquamarine; */
+    display: flex;
+
+}
+.content_middle>li{
+    /* background-color: bisque; */
+    height:480px;
+    margin-right: 20px;
+    width: 47%;
+    border-left:2px solid rgb(224, 224, 224);
+    padding-left: 5px;
+
+}
+.education>li{
+    height:130px;
+    background-color: rgb(240,240,240);
+    border-left:3px solid rgb(116,204,145);
+    border-top:1px solid rgb(237,237,237);
+    border-right:1px solid rgb(237,237,237);
+    border-bottom: 1px solid rgb(237,237,237);
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgb(224, 224, 224);
+    border-radius: 2px;
+    margin-left:-10px;
+    padding-left:10px;
+}
+.education>li>p{
+    word-wrap: normal;
+}
+.green{
+    color:rgb(116,204,145);
+}
+.content_bottom{
+    display:flex;
+}
+.content_bottom>li{
+    width:47%;
+    /* background-color: blue; */
+    height:265px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.skill_bar{
+width:100%;
+height:10px;
+background-color:rgb(224, 224, 224);
+border:1px solid gray;
+position:relative;
+
+}
+.skill_green_web{
+    position: absolute;
+    background-color: green;
+    width:80%;
+    height:10px;
+    transition: width,1.5s;
+}
+.skill_green_graphic{
+    position: absolute;
+    background-color: green;
+    width:75%;
+    height:10px;
+    transition: width,1.5s;
+}
+.skill_green_print{
+    position: absolute;
+    background-color: green;
+    width:85%;
+    height:10px;
+    transition: width,1.5s;
+}
+
+.skill_green_html{
+    position: absolute;
+    background-color: green;
+    width:95%;
+    height:10px;
+    transition: width,1.5s;
+}
+.skill_green_css{
+    position: absolute;
+    background-color: green;
+    width:90%;
+    height:10px;
+    transition: width,1.5s;
+}
+.skill_green_jquery{
+    position: absolute;
+    background-color: green;
+    width:85%;
+    height:10px;
+    transition: width,1.5s;
+}
